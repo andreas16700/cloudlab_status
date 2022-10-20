@@ -42,6 +42,9 @@
 		02D990322901E074001D65E1 /* CircularProgressRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D990302901E074001D65E1 /* CircularProgressRowView.swift */; };
 		02D990332901E480001D65E1 /* CL_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D990112901C745001D65E1 /* CL_WidgetLiveActivity.swift */; };
 		02D990342901EB13001D65E1 /* GlobalWidgetOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9902A2901CF29001D65E1 /* GlobalWidgetOnly.swift */; };
+		02D990382901F317001D65E1 /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D990352901F317001D65E1 /* app.png */; };
+		02D990392901F317001D65E1 /* widget.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D990362901F317001D65E1 /* widget.png */; };
+		02D9903A2901F317001D65E1 /* live_act.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D990372901F317001D65E1 /* live_act.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +117,9 @@
 		02D9902A2901CF29001D65E1 /* GlobalWidgetOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalWidgetOnly.swift; sourceTree = "<group>"; };
 		02D9902D2901D0CF001D65E1 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		02D990302901E074001D65E1 /* CircularProgressRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressRowView.swift; sourceTree = "<group>"; };
+		02D990352901F317001D65E1 /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
+		02D990362901F317001D65E1 /* widget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget.png; sourceTree = "<group>"; };
+		02D990372901F317001D65E1 /* live_act.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live_act.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,9 @@
 				02D990002901BD5C001D65E1 /* APIMethods.swift */,
 				02D990272901CBA9001D65E1 /* sample.json */,
 				02D9902D2901D0CF001D65E1 /* CustomProgressView.swift */,
+				02D990352901F317001D65E1 /* app.png */,
+				02D990372901F317001D65E1 /* live_act.png */,
+				02D990362901F317001D65E1 /* widget.png */,
 				02D990022901C3E3001D65E1 /* AsyncButton.swift */,
 				02D98FF62901B107001D65E1 /* Global.swift */,
 				02D990282901CED7001D65E1 /* GlobalAppOnly.swift */,
@@ -370,8 +379,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D990382901F317001D65E1 /* app.png in Resources */,
+				02D990392901F317001D65E1 /* widget.png in Resources */,
 				02D98FD22901AD08001D65E1 /* Preview Assets.xcassets in Resources */,
 				02D98FCE2901AD08001D65E1 /* Assets.xcassets in Resources */,
+				02D9903A2901F317001D65E1 /* live_act.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
