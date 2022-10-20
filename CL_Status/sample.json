@@ -1,0 +1,301 @@
+{
+  "code": 0,
+  "value": {
+    "urn:publicid:IDN+utah.cloudlab.us+authority+cm": {
+      "rawPCsAvailable": "243",
+      "rawPCsTotal": "962",
+      "VMsAvailable": "878",
+      "VMsTotal": "1150",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+wisc.cloudlab.us+authority+cm": {
+      "rawPCsAvailable": "36",
+      "rawPCsTotal": "523",
+      "VMsAvailable": "4860",
+      "VMsTotal": "1800",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+clemson.cloudlab.us+authority+cm": {
+      "rawPCsAvailable": "48",
+      "rawPCsTotal": "344",
+      "VMsAvailable": "3720",
+      "VMsTotal": "1900",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+apt.emulab.net+authority+cm": {
+      "rawPCsAvailable": "19",
+      "rawPCsTotal": "184",
+      "VMsAvailable": "950",
+      "VMsTotal": "950",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+emulab.net+authority+cm": {
+      "rawPCsAvailable": "249",
+      "rawPCsTotal": "650",
+      "VMsAvailable": "3864",
+      "VMsTotal": "4200",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+stitch.geniracks.net+authority+cm": {
+      "rawPCsAvailable": "0",
+      "rawPCsTotal": "0",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+al2s.internet2.edu+authority+am": {
+      "rawPCsAvailable": "0",
+      "rawPCsTotal": "0",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+cloudlab.umass.edu+authority+cm": {
+      "rawPCsAvailable": "61",
+      "rawPCsTotal": "133",
+      "VMsAvailable": "256",
+      "VMsTotal": "400",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+test1.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "5",
+      "rawPCsTotal": "8",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+web.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "3",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+ebc.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bookstore.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+law73.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+humanities.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "3",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+madsen.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "3",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+sagepoint.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+moran.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "3",
+      "rawPCsTotal": "3",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+pe-proto1.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "0",
+      "rawPCsTotal": "0",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-6185.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+cpg.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-test2.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+pe-test1.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "0",
+      "rawPCsTotal": "0",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+guesthouse.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4817.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4407.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4409.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-6183.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-6186.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4329.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4330.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4604.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4555.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-5175.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4410.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4603.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 100,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-4734.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    },
+    "urn:publicid:IDN+bus-6180.powderwireless.net+authority+cm": {
+      "rawPCsAvailable": "2",
+      "rawPCsTotal": "2",
+      "VMsAvailable": "0",
+      "VMsTotal": "0",
+      "health": 50,
+      "status": "SUCCESS"
+    }
+  }
+}

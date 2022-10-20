@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 @main
 struct CL_StatusApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+				.onAppear{
+					WidgetCenter.shared.reloadAllTimelines()
+				}
         }
     }
 }
