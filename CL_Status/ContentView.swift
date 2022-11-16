@@ -47,7 +47,8 @@ struct ContentView: View {
 				}
 			}
 			.padding()
-			.alert(Text(user.info.alertTitle), isPresented: $user.info.hasAlert, actions: {Text("Ok")})
+			
+			.alert(Text(user.info.alertTitle), isPresented: $user.info.hasAlert, actions: {Text("Ok")}, message: {Text(user.info.alertMsg)})
 			.onReceive(timer){_ in
 				Task{
 					await refreshData()

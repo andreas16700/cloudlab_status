@@ -31,8 +31,54 @@ class User: ObservableObject{
 	}
 	@Published var info: UserState = .init()
 }
-func reportError(title: String, _ msg: String){
+extension CodingKey{
+	var asString: String{
+		if let int = intValue{
+			return "int: \(int)"
+		}else{
+			return stringValue
+		}
+	}
+}
+func jsonString(data: Data)->String?{
+	return String(data: data, encoding: .utf8)
+}
+func reportError(title: String, _ error: Error, jsonData: Data? = nil){
+	var msg: String?
+	if let dec = error as? DecodingError{
+		var title: String
+		var theContext: DecodingError.Context?
+		
+		switch dec {
+		case .typeMismatch(let any, let context):
+			title="Type mismatch for \(any)"
+			theContext=context
+		case .valueNotFound(let any, let context):
+			title="Value not found for \(any)"
+			theContext=context
+		case .keyNotFound(let codingKey, let context):
+			title="Key not found for \(codingKey.asString)"
+			theContext=context
+		case .dataCorrupted(let context):
+			title="Data corrupted"
+			theContext=context
+		@unknown default:
+			title = "Unknown error"
+		}
+		if let context=theContext{
+			let description = context.debugDescription
+			let path = context.codingPath.map{$0.asString}.joined(separator: ":")
+			let dataString = jsonData != nil ? jsonString(data: jsonData!) : nil
+			msg = [
+				title,
+				description,
+				"path: "+path,
+				"data: "+(dataString ?? "non utf8!")
+			].joined(separator: ". ")
+		}
+		
+	}
 	User.current.info.alertTitle=title
-	User.current.info.alertMsg=msg
+	User.current.info.alertMsg=msg ?? "non-decoding error: \(error)"
 	User.current.info.hasAlert=true
 }

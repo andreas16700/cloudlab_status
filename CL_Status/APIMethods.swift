@@ -12,13 +12,14 @@ extension Response{
 		do{
 			let (data, _) = try await URLSession.shared.data(from: url)
 			do{
+//				URLRequest(url: <#T##URL#>)
 				let decoded = try decoder.decode(Self.self, from: data)
 				return decoded
 			}catch{
-				reportError(title: "Decoding error", "\(error)")
+				reportError(title: "Decoding error", error, jsonData: data)
 			}
 		}catch{
-			reportError(title: "Retrieving error", "\(error)")
+			reportError(title: "Retrieving error", error)
 		}
 		return nil
 	}

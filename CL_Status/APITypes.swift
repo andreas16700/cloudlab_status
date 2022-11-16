@@ -34,6 +34,7 @@ struct Value: Codable, Hashable {
 
 enum Status: String, Codable, Hashable {
 	case success = "SUCCESS"
+	case failed = "FAILED"
 }
 func facilityNameByIdentifier(_ id: String, onlyKnown: Bool = false)->String?{
 	if let name = facilityNameByIdentifierDict[id] {return name.capitalized}
